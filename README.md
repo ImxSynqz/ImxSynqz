@@ -44,5 +44,5 @@ Llevo tiempo creando plugins personalizados, mitigando lag y desarrollando mecá
 
 ## 📞 Contacto
 * *Discord:* xxxx_010_
-* *GitHub:* ://github.com
-*
+[* *GitHub:* ://github.com](https://github.com/ImxSynqz/ImxSynqz/blob/main/README.md)
+
