@@ -54,5 +54,5 @@ Seguridad: Parcheo de 3 vulnerabilidades críticas de duplicación de ítems com
 📬 Contacto y Contrataciones
 ¿Buscas elevar la calidad técnica de tu servidor o necesitas un plugin? ¡Contactame!
 discord: xxxx_010_
-GitHub:
+GitHub:https://github.com/ImxSynqz/ImxSynqz/blob/main/README.md
 Correo Electrónico: xsynqz@gmail.com
