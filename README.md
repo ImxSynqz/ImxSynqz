@@ -1,48 +1,58 @@
-# 💻 Portafolio | ImxSynqz - Minecraft Developer
+🚀 PORTAFOLIO: Desarrollador Java & Bedrock
+¡Hola! Soy u Ibai/ImxSynqz, desarrollador de software especializado en la creación, optimización y escalabilidad de servidores de Minecraft. Cuento con más de 3 años de experiencia programando en Java y gestionando arquitecturas de servidores de alta fidelidad, enfocado principalmente en las modalidades competitivas de FullPvP y BoxPvP.
+Mi objetivo es transformar ideas de juego complejas en experiencias multijugador fluidas, sin lag y altamente adictivas.
 
-¡Hola! Soy *ImxSynqz*, desarrollador de software especializado en el ecosistema de Minecraft (Java Edition). Me apasiona transformar ideas competitivas en sistemas eficientes, estables y completamente optimizados para entornos masivos de PvP. 
 
-Llevo tiempo creando plugins personalizados, mitigando lag y desarrollando mecánicas únicas que mejoran la retención de usuarios en redes competitivas.
+🛠️ Habilidades Técnicas
+Lenguajes: Java (8 - 21), Kotlin, SQL (MySQL, PostgreSQL, MongoDB).
+APIs de Minecraft: Spigot, Paper, Purpur, Velocity, BungeeCord.
+Gestión de Dependencias: Maven, Gradle.
+Especialidades: NMS (Net.Minecraft.Server), Optimización de paquetes de red, Bases de datos asíncronas, Desarrollo de Plugins Customizados de raíz.
 
----
 
-## 🛠️ Habilidades Técnicas (Enfoque PvP)
-* *APIs de Combate:* Manejo avanzado de eventos de daño (EntityDamageByEntityEvent), control de knockback personalizado y gestión precisa de hitboxes.
-* *Optimización Extrema:* Mitigación activa de lag en zonas con alta densidad de jugadores (control de partículas, optimización de proyectiles y recolección asíncrona de ítems).
-* *Seguridad:* Desarrollo de parches para exploits comunes de paquetes, clonación de ítems e integración nativa con sistemas AntiCheat (Vulcan, GrimAC).
-* *Stack Principal:* Java, Kotlin, PaperAPI, PurpurAPI, Velocity (Proxies), MySQL, Redis y ProtocolLib.
 
----
+💼 Experiencia Proyectos Destacados
 
-## 🚀 Proyectos Desarrollados (BoxPvP & FullPvP)
+1. Sistema Core de BoxPvP Premium (Custom Plugin)
+Desarrollo integral de un núcleo optimizado desde cero para la modalidad BoxPvP.
+Características principales:
+Manejo asíncrono de zonas de minería y regeneración automática de bloques sin caídas de TPS.
+Sistema de Tradeos/Villagers customizados mediante inventarios virtuales (GUIs) interactivos para evitar los bugs tradicionales de duplicación.
+Eventos automáticos en el mapa (Meteoritos, KOTH, Bosses con IA modificada).
 
-### 📦 1. NexBox Core | El Núcleo Definitivo para BoxPvP
-* *Descripción:* Un plugin integral diseñado específicamente para servidores BoxPvP que unifica la gestión de minas, tiendas de aldeanos y progresión de armaduras en un solo sistema optimizado.
-* *Características Clave:*
-  * *Custom Villager Shaker:* Sistema de comercio basado en archivos de configuración YAML, 100% inmune a exploits de clonación.
-  * *Asynchronous Mine Reset:* Regeneración de minas distribuida en varios ticks del servidor, eliminando por completo los tirones de lag (tps drops) al reiniciar bloques.
-  * *Progression Tracker:* Interfaz GUI interactiva que muestra al jugador el camino exacto de mejoras de su armadura.
-* *Tecnologías:* Java, PaperAPI, SQLite/MySQL, ProtocolLib.
 
-### ⚔️ 2. VanguardArena | Gestión de Combate Avanzada para FullPvP
-* *Descripción:* Entorno competitivo para servidores FullPvP enfocado en mejorar la jugabilidad, el balance del combate y los eventos automáticos en el mapa.
-* *Características Clave:*
-  * *Dynamic Combat Tag:* Genera un NPC "clon" del jugador si este se desconecta en combate, permitiendo que sus rivales lo eliminen y recojan su inventario.
-  * *Custom Knockback Engine:* Motor que permite ajustar el empuje de las armas de forma independiente, adaptándolo al estilo clásico de la comunidad (estilo 1.8 en versiones modernas).
-  * *KOTH (King of the Hill) Automático:* Evento integrado de captura de zonas con recompensas dinámicas que escalan según el número de participantes activos.
-* *Tecnologías:* Kotlin, PurpurAPI, NMS (Net.Minecraft.Server).
+Impacto técnico: Reducción del uso de CPU en un 35% en comparación con soluciones públicas (como usar múltiples plugins de Skript o terceros).
 
-### 🏆 3. ClanWars & BountySystem | Economía y Competitividad
-* *Descripción:* Módulo de interacción social diseñado para fomentar la rivalidad y la retención de usuarios en entornos PvP.
-* *Características Clave:*
-  * *Bounty System (Recompensas):* Permite poner precio a la cabeza de otros usuarios usando la economía del juego. El asesino recibe la recompensa de forma automática.
-  * *Clan Vaults & Levels:* Sistema de clanes con bancos e inventarios compartidos en la nube respaldados en bases de datos.
-  * *Anti-Boost Detection:* Algoritmo básico que detecta si dos jugadores abusan del sistema matándose mutuamente para subir estadísticas, cancelando la recompensa.
-* *Tecnologías:* Java, Redis (sincronización entre salas), MySQL, PlaceholderAPI.
 
----
+2. FullPvP Competitivo & Sistema Anti-Lag
+Reestructuración técnica de un servidor de FullPvP con picos de más de 300 jugadores simultáneos.
+Características principales:
+Desarrollo de un plugin de combate personalizado: mecánicas de combo fluidas, registro preciso de hitboxes y deshabilitación de mecánicas vanilla que entorpecen el PvP competitivo.
+Sistema de Rangos y Prestigios vinculado a una base de datos MongoDB con caché en Redis para evitar tirones (lag spikes) al guardar datos de los jugadores.
+Integración y calibración avanzada de sistemas Anti-Cheat (AdvancedAntiCheat / Vulcan).
 
-## 📞 Contacto
-* *Discord:* xxxx_010_
-[* *GitHub:* ://github.com](https://github.com/ImxSynqz/ImxSynqz/blob/main/README.md)
 
+
+
+3. Sistema de Clanes y Economía Multiserver
+Módulo avanzado enfocado en retener a la comunidad y fomentar la competitividad.
+Características principales:
+Creación de Clanes (Guilds) con sistema de niveles, chat propio, alianzas y guerras programadas.
+Tabla de clasificación (Leaderboards) actualizable en tiempo real de forma asíncrona.
+Sincronización de inventarios, estadísticas y economía entre diferentes salas mediante mensajería Redis Pub/Sub.
+
+
+
+
+
+📉 Casos de Éxito / Optimización
+Estabilización de TPS: Logré mantener un servidor de BoxPvP con 350 jugadores estables a 20.0 TPS constantes, optimizando las tareas repetitivas (BukkitRunnables) y moviendo las consultas pesadas de bases de datos fuera del hilo principal del juego.
+Seguridad: Parcheo de 3 vulnerabilidades críticas de duplicación de ítems comunes en las mecánicas de tolvas y shulkers modificadas para BoxPvP.
+
+
+
+📬 Contacto y Contrataciones
+¿Buscas elevar la calidad técnica de tu servidor o necesitas un plugin? ¡Contactame!
+discord: xxxx_010_
+GitHub:
+Correo Electrónico: xsynqz@gmail.com
