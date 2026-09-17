@@ -38,8 +38,8 @@ Parcheo de Exploits: Bloqueo de exploits comunes en BoxPvP como el phaseo con bl
 Si tu servidor va a tirones, necesitas un sistema único para diferenciarte de la competencia o quieres automatizar tu modalidad, escríbeme:
 
 Discord: xxxx_010_
+
 GitHub: :https://github.com/ImxSynqz/ImxSynqz/edit/main/README.md
 
-Si necesitas cambiar los nombres de los plugins por unos que ya tengas creados o quieres añadir alguna otra network en la que hayas trabajado antes de mandar el ticket, avísame.
 
 
