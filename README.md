@@ -1,5 +1,6 @@
 Ibai / ImxSynqz — Dev de Minecraft (Spigot / Paper)
 Tengo 16 años, llevo más de 3 programando en Java y me centro exclusivamente en el desarrollo y la optimización de servidores de FullPvP y BoxPvP. No vengo a venderte humo corporativo ni configs de plugins públicos; sé picar código, optimizar eventos pesados y solucionar los exploits reales que rompen la economía de estas modalidades.
+
 🛠️ Stack Técnico Real
 
 APIs: Paper API, Purpur, Velocity (para redes multiserver).
